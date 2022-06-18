@@ -1,0 +1,15 @@
+.input {
+    border-radius: 10px;
+    padding: 1em;
+    width: 30%;
+    min-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-color: transparent;
+    transform: scale(1);
+    transition: transform 250ms;
+    margin: 0 auto;
+}
+
+.input:hover, .input:focus {
+    transform: scale(1.05);
+}

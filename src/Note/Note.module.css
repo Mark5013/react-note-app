@@ -1,0 +1,25 @@
+.note {
+    background-color: #FAEB84;
+    padding: 1em;    
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    width: 230px;
+    margin: 1em auto;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: inline-block;
+    align-self: flex-end;
+    border: transparent;
+    background-color: transparent;
+    color: black;
+    transition: opacity 250ms;
+    opacity: .2;
+}
+
+.button:hover, .button:focus {
+    opacity: 1;
+}
